@@ -8,7 +8,6 @@ Windows で TypeScript の環境を構築したら意外とハマり所が多か
 その後 TypeScript 化をして、ファイル更新時に node を自動再起動する設定も行った。  
 TypeScript の公式通りの設定をするも nodemon が更新ファイルを認識しない等、所々つまづいた。
 
-lodash の重要な機能については ES6 の標準機能でもできる事が多いので、使う場合は確認するのが望ましい。
 
 ## 環境
  ```
@@ -148,7 +147,7 @@ https://qiita.com/ROYH/items/4af792fb6bca7f5850c9
 
 
 ## Topic：lodash 推奨されていない模様
-サンプルで利用した lodash は、最近では利用しない方向へ。
+サンプルで利用した lodash は利用を控えたいという意見もあった。
 ### lodash やめ方
 https://qiita.com/mizchi/items/af17f45d5653b76f6751
 
