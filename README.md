@@ -135,8 +135,8 @@ https://qiita.com/ryu110/questions/b0923e46b552e96ff4dc
 
 
 ## Trouble: Remove "type": "module" from package.json
-JavaScript で import を利用するため package.json に設定していた ```"type": "module" ``` は、TypeScript の環境にしたらエラーになってしまった。  
-必要無いので削除する。
+JavaScript で import を利用するため、最初は ```"type": "module" ```  package.json に設定してみた。
+しかしこれは、後に TypeScript の環境にした時にエラーになってしまったため、削除する。  
 ### Can't run my Node.js TypeScript project TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".ts" for /app/src/App.ts
 https://stackoverflow.com/questions/62096269/cant-run-my-node-js-typescript-project-typeerror-err-unknown-file-extension
 
@@ -148,6 +148,7 @@ https://qiita.com/ROYH/items/4af792fb6bca7f5850c9
 
 
 ## Topic：lodash 推奨されていない模様
+サンプルで利用した lodash は、最近では利用しない方向へ。
 ### lodash やめ方
 https://qiita.com/mizchi/items/af17f45d5653b76f6751
 
